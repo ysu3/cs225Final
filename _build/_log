@@ -1,0 +1,8 @@
+### Starting build.
+# Target: final.ml.depends, tags: { package(ppx_deriving.std), extension:ml, file:final.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package ppx_deriving.std -modules final.ml > final.ml.depends
++ ocamlfind ocamldep -package ppx_deriving.std -modules final.ml > final.ml.depends
+File "final.ml", line 308, characters 2-5:
+Error: Syntax error
+Command exited with code 2.
+# Compilation unsuccessful.
