@@ -6,5 +6,4 @@ In the code, at line 124, two types of parameter are belong to type_env and expr
 
 First, at line 112, I added a new exception type named EXP_ERROR. Then at line 283-306, expressions that functions should return has been checked. Finally, EXP_ERROR has been added to every functions.
 
-However, before the due time I realized that the requirement of final project is writing a new function and adding exceptions for it then testing it. Thus, I am changing the code and started write new functions.
 
