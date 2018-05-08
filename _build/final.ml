@@ -300,10 +300,11 @@ in
     try
       if not (e0 : exp)
       then begin
-        print_endline "PASSED."
+        print_endline "FAILED."
         end
     with ERROR ->
     print_endline "e0 does not belong to expressions."
+    end
   
   let (fv_passed,fv_failed,fv_todo) = 
     List.fold_left begin fun (passed,failed,todo) (e,xs) ->
