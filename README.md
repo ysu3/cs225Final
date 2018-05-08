@@ -6,4 +6,4 @@ In the code, at line 124, two types of parameter are belong to type_env and expr
 
 First, at line 112, I added a new exception type named EXP_ERROR. Then at line 283-306, expressions that functions should return has been checked. Finally, EXP_ERROR has been added to every functions.
 
-However, the final.ml cannot be ran. If I had more time, I would work on how to fix this problem and write other exceptions.
+
